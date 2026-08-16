@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Bhosale | Python Full Stack Developer & AI/ML Student</title>
+    <meta name="description" content="Ravi Bhosale - Python Full Stack Developer building Ravix Language from scratch. Diploma AI/ML student from Pune, India. Creator of Pixora, Django Auth System.">
+    <meta name="keywords" content="Ravi Bhosale, Python Developer, Full Stack, AI ML, Ravix Language, Pune">
+    <meta name="author" content="Ravi Bhosale">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ravi Bhosale | Python Full Stack Developer">
+    <meta property="og:description" content="Building Ravix Language from scratch. Python Full Stack Dev | Diploma AI/ML">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/RAVIxTREME">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-symbol">$</span>
+                <span class="logo-text">ravix</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-section="home">home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">about</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">skills</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">projects</a></li>
+                <li><a href="#journey" class="nav-link" data-section="journey">journey</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="grid-overlay"></div>
+            <div class="particles-container" id="particles"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="terminal-title">ravix@system:~</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="prompt">$</span>
+                        <span class="command typing" data-text="whoami"></span>
+                    </div>
+                    <div class="terminal-output" id="whoami-output">
+                        <div class="output-line">
+                            <span class="key">name:</span>
+                            <span class="value">"Ravi Bhosale"</span>
+                        </div>
+                        <div class="output-line">
+                            <span class="key">role:</span>
+                            <span class="value">"Python Full Stack Developer"</span>
+                        </div>
+                        <div class="output-line">
+                            <span class="key">status:</span>
+                            <span class="value status-building">"Building Ravix Language"</span>
+                        </div>
+                        <div class="output-line">
+                            <span class="key">location:</span>
+                            <span class="value">"Pune, India"</span>
+                        </div>
+                        <div class="output-line">
+                            <span class="key">education:</span>
+                            <span class="value">"Diploma AI/ML '29"</span>
+                        </div>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">$</span>
+                        <span class="command typing" data-text="cat current_mission.txt"></span>
+                    </div>
+                    <div class="terminal-output" id="mission-output">
+                        <p class="mission-text">Started with HTML/CSS, now building full-stack apps with Django & MySQL. Currently pursuing Diploma in AI/ML while creating Ravix — a programming language from scratch. Reading Crafting Interpreters.</p>
+                    </div>
+                    <div class="terminal-line active">
+                        <span class="prompt">$</span>
+                        <span class="cursor-blink">_</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary magnetic">
+                    <span>view_projects()</span>
+                </a>
+                <a href="https://github.com/RAVIxTREME" target="_blank" rel="noopener" class="btn btn-secondary magnetic">
+                    <span>github</span>
+                </a>
+                <a href="https://www.linkedin.com/in/ravi-bhosale-a6291a393" target="_blank" rel="noopener" class="btn btn-secondary magnetic">
+                    <span>linkedin</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span class="scroll-text">scroll to explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">01 // about</span>
+                <h2 class="section-title">The Developer</h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-main">
+                    <p class="about-lead">
+                        I'm a self-taught developer from Pune who started with basic HTML/CSS and worked my way up to building full-stack applications with Django and MySQL — deployed and live.
+                    </p>
+                    <p class="about-text">
+                        After completing ITI COPA with 88.90% grade, I'm now pursuing a Diploma in AI/ML with plans for B.Tech via lateral entry. When I'm not coding, I'm planning my next project — right now that's Ravix, a programming language I'm building from scratch.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">6</span>
+                            <span class="stat-label">Repositories</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">11</span>
+                            <span class="stat-label">Followers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">88.9%</span>
+                            <span class="stat-label">ITI Grade</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-card">
+                    <div class="card-header">
+                        <span class="card-icon">⚡</span>
+                        <span class="card-title">system.status</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="status-item">
+                            <span class="status-dot active"></span>
+                            <span class="status-text">Currently building Ravix Language</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-dot active"></span>
+                            <span class="status-text">Studying Diploma AI/ML</span>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-dot"></span>
+                            <span class="status-text">Reading: Crafting Interpreters</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="location">📍 Pune, Maharashtra</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">02 // skills</span>
+                <h2 class="section-title">Tech Stack</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category" data-category="languages">
+                    <div class="category-header">
+                        <span class="category-icon">&lt;/&gt;</span>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item" data-level="proficient">Python</span>
+                        <span class="skill-item" data-level="proficient">JavaScript</span>
+                        <span class="skill-item" data-level="learning">C</span>
+                        <span class="skill-item" data-level="learning">C++</span>
+                        <span class="skill-item" data-level="proficient">HTML</span>
+                        <span class="skill-item" data-level="proficient">CSS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-category="frameworks">
+                    <div class="category-header">
+                        <span class="category-icon">⚙</span>
+                        <h3>Frameworks</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item" data-level="proficient">Django</span>
+                        <span class="skill-item" data-level="proficient">React</span>
+                        <span class="skill-item" data-level="learning">Django REST</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-category="database">
+                    <div class="category-header">
+                        <span class="category-icon">🗄</span>
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item" data-level="proficient">MySQL</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category" data-category="tools">
+                    <div class="category-header">
+                        <span class="category-icon">🛠</span>
+                        <h3>Tools</h3>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item" data-level="proficient">Git</span>
+                        <span class="skill-item" data-level="proficient">GitHub</span>
+                        <span class="skill-item" data-level="proficient">VS Code</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category featured" data-category="aiml">
+                    <div class="category-header">
+                        <span class="category-icon">◈</span>
+                        <h3>AI / ML</h3>
+                        <span class="badge">learning</span>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item" data-level="learning">Diploma AI/ML</span>
+                        <span class="skill-item" data-level="learning">Python for AI</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category featured" data-category="special">
+                    <div class="category-header">
+                        <span class="category-icon">★</span>
+                        <h3>Special</h3>
+                        <span class="badge">building</span>
+                    </div>
+                    <div class="skill-items">
+                        <span class="skill-item" data-level="building">Ravix Language</span>
+                        <span class="skill-item" data-level="building">Compiler Design</span>
+                        <span class="skill-item" data-level="building">AST</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project: Ravix -->
+    <section class="featured" id="featured">
+        <div class="container">
+            <div class="featured-header">
+                <span class="section-label">featured</span>
+                <h2 class="featured-title">Ravix Language</h2>
+                <p class="featured-subtitle">A programming language built from scratch</p>
+            </div>
+            
+            <div class="featured-content">
+                <div class="featured-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="window-dot"></span>
+                            <span class="window-dot"></span>
+                            <span class="window-dot"></span>
+                            <span class="window-title">hello.rx</span>
+                        </div>
+                        <pre class="window-code"><code><span class="code-comment">// Ravix Language</span>
+<span class="code-keyword">func</span> <span class="code-function">main</span>() {
+    <span class="code-keyword">let</span> message = <span class="code-string">"Hello, Ravix!"</span>;
+    <span class="code-function">print</span>(message);
+    
+    <span class="code-comment">// Building the future</span>
+    <span class="code-keyword">return</span> <span class="code-number">0</span>;
+}</code></pre>
+                    </div>
+                </div>
+                
+                <div class="featured-info">
+                    <p class="featured-desc">
+                        Ravix is a custom programming language I'm building from scratch. It features a custom Lexer, Parser, and Interpreter. Planned CLI tool and VS Code extension. Using Python for implementation while studying Crafting Interpreters by Robert Nystrom.
+                    </p>
+                    <div class="featured-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">AST</span>
+                        <span class="tech-tag">Compiler Design</span>
+                        <span class="tech-tag">.rx</span>
+                    </div>
+                    <a href="https://github.com/RAVIxTREME/Ravix" target="_blank" rel="noopener" class="btn btn-primary magnetic">
+                        <span>view_repository()</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">03 // projects</span>
+                <h2 class="section-title">Build Log</h2>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Pixora -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">01</span>
+                        <div class="project-links">
+                            <a href="https://github.com/RAVIxTREME/Pixora" target="_blank" rel="noopener" class="project-link" aria-label="View Pixora on GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Pixora</h3>
+                    <p class="project-desc">A full-stack blogging platform built with React and Django REST Framework. My first complete web application with modern frontend and API backend.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Django REST</span>
+                        <span>MySQL</span>
+                    </div>
+                </article>
+
+                <!-- Django Auth -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">02</span>
+                        <div class="project-links">
+                            <a href="https://github.com/RAVIxTREME/django-auth-project" target="_blank" rel="noopener" class="project-link" aria-label="View Django Auth on GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Django Auth System</h3>
+                    <p class="project-desc">Full-stack web app with login system, user profiles, and login history tracking. Connected to MySQL and deployed live on Railway.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>MySQL</span>
+                        <span>Railway</span>
+                    </div>
+                </article>
+
+                <!-- Tic Tac Toe -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">03</span>
+                        <div class="project-links">
+                            <a href="https://github.com/RAVIxTREME/Tiv-tac-toe" target="_blank" rel="noopener" class="project-link" aria-label="View Tic Tac Toe on GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Tic Tac Toe</h3>
+                    <p class="project-desc">Built this classic game from scratch using HTML, CSS, and JavaScript. A fun project to practice DOM manipulation and game logic.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <!-- Candy Reward -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-number">04</span>
+                        <div class="project-links">
+                            <a href="https://github.com/RAVIxTREME/Candy-Reward" target="_blank" rel="noopener" class="project-link" aria-label="View Candy Reward on GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Candy Reward</h3>
+                    <p class="project-desc">My very first project. Built solo during ITI using only HTML and CSS. A static website that started my development journey.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="projects-footer">
+                <a href="https://github.com/RAVIxTREME?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline magnetic">
+                    <span>view_all_repositories()</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section class="journey" id="journey">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">04 // journey</span>
+                <h2 class="section-title">Development Path</h2>
+            </div>
+            
+            <div class="journey-timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item completed">
+                    <div class="timeline-marker">
+                        <span class="marker-number">01</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-status">completed</span>
+                        <h3 class="timeline-title">ITI COPA</h3>
+                        <p class="timeline-desc">Started with computer fundamentals. Built first static project Candy Reward using HTML and CSS.</p>
+                        <span class="timeline-meta">Grade: 88.90%</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item completed">
+                    <div class="timeline-marker">
+                        <span class="marker-number">02</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-status">completed</span>
+                        <h3 class="timeline-title">First Full-Stack</h3>
+                        <p class="timeline-desc">Built Django Auth System with MySQL. Deployed on Railway. Learned backend development.</p>
+                        <span class="timeline-meta">Python • Django • MySQL</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item current">
+                    <div class="timeline-marker">
+                        <span class="marker-number">03</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-status">current</span>
+                        <h3 class="timeline-title">Diploma AI/ML</h3>
+                        <p class="timeline-desc">Pursuing Diploma in AI/ML. Building Pixora and Ravix Language simultaneously.</p>
+                        <span class="timeline-meta">React • Django REST • Language Design</span>
+                    </div>
+                </div>
+                
+                <div class="timeline-item future">
+                    <div class="timeline-marker">
+                        <span class="marker-number">04</span>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-status">next</span>
+                        <h3 class="timeline-title">B.Tech & Beyond</h3>
+                        <p class="timeline-desc">Complete Ravix v1.0. Land first internship. Prepare for B.Tech AI/ML lateral entry.</p>
+                        <span class="timeline-meta">2026 Goals</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-header">
+                    <span class="section-label">05 // contact</span>
+                    <h2 class="contact-title">Let's Build Something</h2>
+                </div>
+                
+                <div class="contact-terminal">
+                    <div class="terminal-line">
+                        <span class="prompt">$</span>
+                        <span class="command">connect</span>
+                    </div>
+                    <div class="terminal-output contact-links">
+                        <a href="https://github.com/RAVIxTREME" target="_blank" rel="noopener" class="contact-item magnetic">
+                            <span class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </span>
+                            <span class="contact-text">github.com/RAVIxTREME</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ravi-bhosale-a6291a393" target="_blank" rel="noopener" class="contact-item magnetic">
+                            <span class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            </span>
+                            <span class="contact-text">linkedin.com/in/ravi-bhosale</span>
+                        </a>
+                        <a href="mailto:ravixtreme7@gmail.com" class="contact-item magnetic">
+                            <span class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </span>
+                            <span class="contact-text">ravixtreme7@gmail.com</span>
+                        </a>
+                        <a href="https://discord.gg/qNfDnBSNt" target="_blank" rel="noopener" class="contact-item magnetic">
+                            <span class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.963 19.963 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+                            </span>
+                            <span class="contact-text">Discord Server</span>
+                        </a>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="prompt">$</span>
+                        <span class="cursor-blink">_</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="footer-logo">$ravix</span>
+                    <span class="footer-tagline">Building the future, one line at a time.</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/RAVIxTREME" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://www.linkedin.com/in/ravi-bhosale-a6291a393" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="footer-copyright">Ravi Bhosale • Pune, India</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
